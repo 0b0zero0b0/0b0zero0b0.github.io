@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keler-Blog</title><link>https://0b0zero0b0.github.io/</link><description>Recent content from Keler-Blog</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>halakeke@outlook.com (Keler)</managingEditor><webMaster>halakeke@outlook.com (Keler)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Sat, 02 Aug 2025 22:50:18 +0800</lastBuildDate><atom:link href="https://0b0zero0b0.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://0b0zero0b0.github.io/post/hello-world/</link><pubDate>Sat, 02 Aug 2025 22:50:18 +0800</pubDate><author>halakeke@outlook.com (Keler)</author><guid>https://0b0zero0b0.github.io/post/hello-world/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keler-Blog</title><link>https://0b0zero0b0.github.io/</link><description>Recent content from Keler-Blog</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>halakeke@outlook.com (Keler)</managingEditor><webMaster>halakeke@outlook.com (Keler)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Thu, 14 Aug 2025 18:18:30 +0800</lastBuildDate><atom:link href="https://0b0zero0b0.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>0814</title><link>https://0b0zero0b0.github.io/post/0814/</link><pubDate>Thu, 14 Aug 2025 18:18:30 +0800</pubDate><author>halakeke@outlook.com (Keler)</author><guid>https://0b0zero0b0.github.io/post/0814/</guid><description>
+<![CDATA[<h1>0814</h1><p>作者：Keler（halakeke@outlook.com）</p>
+        
+          <p>[toc]</p>
+<h1 id="ostep">
+<a class="header-anchor" href="#ostep"></a>
+OSTEP
+</h1><h2 id="20250803ostep">
+<a class="header-anchor" href="#20250803ostep"></a>
+2025.08.03&ndash;OSTEP
+</h2><h4 id="作业">
+<a class="header-anchor" href="#%e4%bd%9c%e4%b8%9a"></a>
+作业
+</h4><ul>
+<li>多是对OS的一些模拟</li>
+<li>提供不同的随机种子</li>
+</ul>
+<h5 id="附录项目">
+<a class="header-anchor" href="#%e9%99%84%e5%bd%95%e9%a1%b9%e7%9b%ae"></a>
+附录&ndash;项目
+</h5><ul>
+<li>设计、测试和实现代码</li>
+<li>语言&ndash;C语言
+<ol>
+<li>系统编程项目
+<ul>
+<li>学习如何进行底层C编程</li>
+</ul>
+</li>
+<li>学院开发的系统内核
+<ul>
+<li>xv6编程</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<p>“首先听课, 听老师讲解并做好笔记,然后每个周末阅读笔记,以便更好地理解这些概念。过一段时间 (比如考试前),再阅读一遍笔记来进一步巩固知识。当然老师也肯定会布置作业和项目, 你需要认真完成。特别是做项目,你会编写真正的代码来解决真正的问题,这是将笔记中 的概念活学活用。”</p>
+        
+        <hr><p>本文2025-08-14首发于<a href='https://0b0zero0b0.github.io/'>Keler-Blog</a>，最后修改于2025-08-14</p>]]></description></item><item><title>Hello World</title><link>https://0b0zero0b0.github.io/post/hello-world/</link><pubDate>Sat, 02 Aug 2025 22:50:18 +0800</pubDate><author>halakeke@outlook.com (Keler)</author><guid>https://0b0zero0b0.github.io/post/hello-world/</guid><description>
 <![CDATA[<h1>Hello World</h1><p>作者：Keler（halakeke@outlook.com）</p>
         
           
