@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Keler-Blog</title>
     <link>http://localhost:1313/post/</link>
-    <description>Recent content from My New Hugo Site</description>
+    <description>Recent content from Keler-Blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     
-    <managingEditor>xxx@example.com (D-Sketon)</managingEditor>
-    <webMaster>xxx@example.com (D-Sketon)</webMaster>
+    <managingEditor>halakeke@outlook.com (Keler)</managingEditor>
+    <webMaster>halakeke@outlook.com (Keler)</webMaster>
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate>Sat, 02 Aug 2025 22:50:18 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 14 Aug 2025 18:18:30 +0800</lastBuildDate>
     
     
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -22,17 +22,35 @@
     
 
     <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/post/hello-world/</link>
-      <pubDate>Sat, 02 Aug 2025 22:50:18 &#43;0800</pubDate>
-      <author>xxx@example.com (D-Sketon)</author>
-      <guid>http://localhost:1313/post/hello-world/</guid>
+      <title>0814</title>
+      <link>http://localhost:1313/post/0814/</link>
+      <pubDate>Thu, 14 Aug 2025 18:18:30 &#43;0800</pubDate>
+      <author>halakeke@outlook.com (Keler)</author>
+      <guid>http://localhost:1313/post/0814/</guid>
       <description>
-        <![CDATA[<h1>Hello World</h1><p>作者：D-Sketon（xxx@example.com）</p>
+        <![CDATA[<h1>0814</h1><p>作者：Keler（halakeke@outlook.com）</p>
         
           
         
-        <hr><p>本文2025-08-02首发于<a href='http://localhost:1313/'>My New Hugo Site</a>，最后修改于2025-08-02</p>]]>
+        <hr><p>本文2025-08-14首发于<a href='http://localhost:1313/'>Keler-Blog</a>，最后修改于2025-08-14</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/post/hello-world/</link>
+      <pubDate>Sat, 02 Aug 2025 22:50:18 &#43;0800</pubDate>
+      <author>halakeke@outlook.com (Keler)</author>
+      <guid>http://localhost:1313/post/hello-world/</guid>
+      <description>
+        <![CDATA[<h1>Hello World</h1><p>作者：Keler（halakeke@outlook.com）</p>
+        
+          
+        
+        <hr><p>本文2025-08-02首发于<a href='http://localhost:1313/'>Keler-Blog</a>，最后修改于2025-08-02</p>]]>
       </description>
       
     </item>
@@ -43,14 +61,14 @@
       <title>Hello world！！</title>
       <link>http://localhost:1313/post/test/</link>
       <pubDate>Sat, 02 Aug 2025 20:07:18 &#43;0800</pubDate>
-      <author>xxx@example.com (D-Sketon)</author>
+      <author>halakeke@outlook.com (Keler)</author>
       <guid>http://localhost:1313/post/test/</guid>
       <description>
-        <![CDATA[<h1>Hello world！！</h1><p>作者：D-Sketon（xxx@example.com）</p>
+        <![CDATA[<h1>Hello world！！</h1><p>作者：Keler（halakeke@outlook.com）</p>
         
           
         
-        <hr><p>本文2025-08-02首发于<a href='http://localhost:1313/'>My New Hugo Site</a>，最后修改于2025-08-02</p>]]>
+        <hr><p>本文2025-08-02首发于<a href='http://localhost:1313/'>Keler-Blog</a>，最后修改于2025-08-02</p>]]>
       </description>
       
     </item>
