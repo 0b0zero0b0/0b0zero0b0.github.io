@@ -1,39 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keler-Blog</title><link>https://0b0zero0b0.github.io/</link><description>Recent content from Keler-Blog</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>halakeke@outlook.com (Keler)</managingEditor><webMaster>halakeke@outlook.com (Keler)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Thu, 14 Aug 2025 18:18:30 +0800</lastBuildDate><atom:link href="https://0b0zero0b0.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>0814</title><link>https://0b0zero0b0.github.io/post/0814/</link><pubDate>Thu, 14 Aug 2025 18:18:30 +0800</pubDate><author>halakeke@outlook.com (Keler)</author><guid>https://0b0zero0b0.github.io/post/0814/</guid><description>
-<![CDATA[<h1>0814</h1><p>作者：Keler（halakeke@outlook.com）</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keler-Blog</title><link>https://0b0zero0b0.github.io/</link><description>Recent content from Keler-Blog</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>halakeke@outlook.com (Keler)</managingEditor><webMaster>halakeke@outlook.com (Keler)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Fri, 17 Oct 2025 18:41:36 +0800</lastBuildDate><atom:link href="https://0b0zero0b0.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>1017 OSTEP</title><link>https://0b0zero0b0.github.io/post/1017-ostep/</link><pubDate>Fri, 17 Oct 2025 18:41:36 +0800</pubDate><author>halakeke@outlook.com (Keler)</author><guid>https://0b0zero0b0.github.io/post/1017-ostep/</guid><description>
+<![CDATA[<h1>1017 OSTEP</h1><p>作者：Keler（halakeke@outlook.com）</p>
         
-          <h1 id="ostep">
-<a class="header-anchor" href="#ostep"></a>
-OSTEP
-</h1><h2 id="20250803ostep">
-<a class="header-anchor" href="#20250803ostep"></a>
-2025.08.03&ndash;OSTEP
-</h2><h4 id="作业">
-<a class="header-anchor" href="#%e4%bd%9c%e4%b8%9a"></a>
-作业
+          <h4 id="指令执行">
+<a class="header-anchor" href="#%e6%8c%87%e4%bb%a4%e6%89%a7%e8%a1%8c"></a>
+指令执行
 </h4><ul>
-<li>多是对OS的一些模拟</li>
-<li>提供不同的随机种子</li>
+<li>从内存Fetch一条指令&ndash;decode&ndash;execute&ndash;next</li>
 </ul>
-<h5 id="附录项目">
-<a class="header-anchor" href="#%e9%99%84%e5%bd%95%e9%a1%b9%e7%9b%ae"></a>
-附录&ndash;项目
+<h5 id="操作系统易于使用正确高效">
+<a class="header-anchor" href="#%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f%e6%98%93%e4%ba%8e%e4%bd%bf%e7%94%a8%e6%ad%a3%e7%a1%ae%e9%ab%98%e6%95%88"></a>
+操作系统&ndash;易于使用、正确高效
 </h5><ul>
-<li>设计、测试和实现代码</li>
-<li>语言&ndash;C语言
-<ol>
-<li>系统编程项目
+<li>使程序运行更容易(包括并发)</li>
+<li>允许程序共享内存</li>
+<li>是程序和设备交互&hellip;</li>
+</ul>
+<h3 id="crux如何将资源虚拟化">
+<a class="header-anchor" href="#crux%e5%a6%82%e4%bd%95%e5%b0%86%e8%b5%84%e6%ba%90%e8%99%9a%e6%8b%9f%e5%8c%96"></a>
+crux：如何将资源虚拟化
+</h3><ul>
+<li>目的：让系统易于使用</li>
+<li>虚拟化&ndash;physical资源-&gt;虚拟形式
 <ul>
-<li>学习如何进行底层C编程</li>
+<li>共享CPU(程序并行)、共享内存(指令+数据)、共享磁盘(访问设备)</li>
 </ul>
 </li>
-<li>学院开发的系统内核
+<li>标准库&ndash;OS提供的给应用程序调用的来运行程序、访问内存和设备的数百个系统调用</li>
+</ul>
+<h2 id="虚拟化cpu">
+<a class="header-anchor" href="#%e8%99%9a%e6%8b%9f%e5%8c%96cpu"></a>
+虚拟化CPU
+</h2><ul>
+<li>每个进程访问自己的私有虚拟地址空间，OS以某种方式映射到机器的物理地址上。&ndash;彼此间不会影响</li>
+<li>访存
 <ul>
-<li>xv6编程</li>
+<li>读取数据结构&ndash;如加载、保存</li>
+<li>每次读取指令(保存在内存中)</li>
 </ul>
 </li>
-</ol>
+</ul>
+<h2 id="并发">
+<a class="header-anchor" href="#%e5%b9%b6%e5%8f%91"></a>
+并发
+</h2><ul>
+<li>
+<h3 id="curx如何构建正确的并发程序">
+<a class="header-anchor" href="#curx%e5%a6%82%e4%bd%95%e6%9e%84%e5%bb%ba%e6%ad%a3%e7%a1%ae%e7%9a%84%e5%b9%b6%e5%8f%91%e7%a8%8b%e5%ba%8f"></a>
+curx：如何构建正确的并发程序
+</h3><ul>
+<li>以计数器增加为例，引出若不是以原子方式执行计数器增加，多线程的结果可能很奇怪</li>
+</ul>
 </li>
 </ul>
-<p>“首先听课, 听老师讲解并做好笔记,然后每个周末阅读笔记,以便更好地理解这些概念。过一段时间 (比如考试前),再阅读一遍笔记来进一步巩固知识。当然老师也肯定会布置作业和项目, 你需要认真完成。特别是做项目,你会编写真正的代码来解决真正的问题,这是将笔记中 的概念活学活用。”</p>
+<h2 id="持久性">
+<a class="header-anchor" href="#%e6%8c%81%e4%b9%85%e6%80%a7"></a>
+持久性
+</h2><ul>
+<li>
+<p>用软硬件持久地存储数据</p>
         
-        <hr><p>本文2025-08-14首发于<a href='https://0b0zero0b0.github.io/'>Keler-Blog</a>，最后修改于2025-08-14</p>]]></description></item></channel></rss>
+        <hr><p>本文2025-10-17首发于<a href='https://0b0zero0b0.github.io/'>Keler-Blog</a>，最后修改于2025-10-17</p>]]></description></item></channel></rss>
