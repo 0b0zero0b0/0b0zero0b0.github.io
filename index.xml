@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keler-Blog</title><link>https://0b0zero0b0.github.io/</link><description>Recent content from Keler-Blog</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>halakeke@outlook.com (Keler)</managingEditor><webMaster>halakeke@outlook.com (Keler)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Fri, 17 Oct 2025 18:41:36 +0800</lastBuildDate><atom:link href="https://0b0zero0b0.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>1017 OSTEP</title><link>https://0b0zero0b0.github.io/post/1017-ostep/</link><pubDate>Fri, 17 Oct 2025 18:41:36 +0800</pubDate><author>halakeke@outlook.com (Keler)</author><guid>https://0b0zero0b0.github.io/post/1017-ostep/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Keler-Blog</title><link>https://0b0zero0b0.github.io/</link><description>Recent content from Keler-Blog</description><generator>Hugo</generator><language>zh-cn</language><managingEditor>halakeke@outlook.com (Keler)</managingEditor><webMaster>halakeke@outlook.com (Keler)</webMaster><copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright><lastBuildDate>Fri, 17 Oct 2025 20:23:00 +0800</lastBuildDate><atom:link href="https://0b0zero0b0.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>1017 Crypto</title><link>https://0b0zero0b0.github.io/post/1017-crypto/</link><pubDate>Fri, 17 Oct 2025 20:23:00 +0800</pubDate><author>halakeke@outlook.com (Keler)</author><guid>https://0b0zero0b0.github.io/post/1017-crypto/</guid><description>
+<![CDATA[<h1>1017 Crypto</h1><p>作者：Keler（halakeke@outlook.com）</p>
+        
+          <p>“its emphasis on definitions, precise assumptions, and rigorous proofs of security.” (Katz 和 Lindell, 2021, p. xv)</p>
+<ul>
+<li>现代密码学与传统密码学区别之处</li>
+</ul>
+<h1 id="part-iintroduction-and-classical-cryptography">
+<a class="header-anchor" href="#part-iintroduction-and-classical-cryptography"></a>
+Part I&ndash;Introduction and Classical Cryptography
+</h1><h2 id="11-cryptography-and-modern-cryptography">
+<a class="header-anchor" href="#11-cryptography-and-modern-cryptography"></a>
+1.1 Cryptography and Modern Cryptography
+</h2><ul>
+<li>有理论支撑</li>
+<li>应用范围更广</li>
+</ul>
+<h2 id="12-the-setting-of-private-key-encryption">
+<a class="header-anchor" href="#12-the-setting-of-private-key-encryption"></a>
+1.2 The Setting of Private-Key Encryption
+</h2><ul>
+<li>
+<p>所有加密方案(现代密码学采用的术语)的安全性源自密钥</p>
+        
+        <hr><p>本文2025-10-17首发于<a href='https://0b0zero0b0.github.io/'>Keler-Blog</a>，最后修改于2025-10-17</p>]]></description></item><item><title>1017 OSTEP</title><link>https://0b0zero0b0.github.io/post/1017-ostep/</link><pubDate>Fri, 17 Oct 2025 18:41:36 +0800</pubDate><author>halakeke@outlook.com (Keler)</author><guid>https://0b0zero0b0.github.io/post/1017-ostep/</guid><description>
 <![CDATA[<h1>1017 OSTEP</h1><p>作者：Keler（halakeke@outlook.com）</p>
         
           <h4 id="指令执行">
